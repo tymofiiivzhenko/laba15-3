@@ -22,11 +22,10 @@ int main() {
         }
     }
 
-    printf("New massif:\n");
+    printf("\nNew massif:\n");
     for (i = 0; i < N; ++i) {
         printf("%d\t", A[i]);
     }
-    printf("\n");
 
     free(A);
 
